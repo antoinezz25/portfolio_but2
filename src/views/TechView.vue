@@ -219,7 +219,7 @@
               </div>
               <div class="d-flex align-center" style="gap: 8px;">
                 <span class="text-body-2 text-grey-lighten-1 font-weight-medium">Évaluation</span>
-                <v-chip size="small" color="green" variant="tonal">Bon / Maîtrisé</v-chip>
+                <v-chip size="small" color="green" variant="tonal">Opérationnel</v-chip>
               </div>
             </div>
 
