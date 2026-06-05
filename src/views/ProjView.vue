@@ -158,17 +158,31 @@
               <strong class="text-grey-lighten-1">Contexte d'apprentissage :</strong> La gestion de projet par Gantt a été pratiquée concrètement en BUT au travers des SAE (Situations d'Apprentissage et d'Évaluation), réalisées en groupe avec de vrais diagrammes de Gantt, des deadlines et des livrables à honorer. Cependant, ces planifications restaient dans un cadre scolaire : sans équipe professionnelle, sans impact sur un déploiement réel, ni dépendances critiques entre jalons. M'insérer dans un Gantt d'entreprise partagé, avec une responsabilité réelle sur des jalons de mise en production, relève d'un apprentissage acquis sur le terrain.
             </p>
 
-            <p class="text-body-2 mb-3 text-justify">
-              <strong class="text-grey-lighten-1">Difficulté :</strong> Moyenne. Le principal défi était d'anticiper les dépendances entre tâches (finir l'environnement de test avant la production) et de remonter à temps les éventuels blocages à mon tuteur sans attendre la prochaine réunion de synchronisation.
-            </p>
+            <div class="d-flex align-center flex-wrap mb-4" style="gap: 20px;">
+              <div class="d-flex align-center" style="gap: 8px;">
+                <span class="text-body-2 text-grey-lighten-1 font-weight-medium">Difficulté</span>
+                <v-chip size="small" color="amber" variant="tonal">Moyenne</v-chip>
+              </div>
+              <div class="d-flex align-center" style="gap: 8px;">
+                <span class="text-body-2 text-grey-lighten-1 font-weight-medium">Évaluation</span>
+                <v-chip size="small" color="blue" variant="tonal">Intermédiaire</v-chip>
+              </div>
+            </div>
 
-            <p class="text-body-2 mb-3 text-justify">
-              <strong class="text-grey-lighten-1">Évaluation :</strong> Intermédiaire. Je suis en mesure de m'inscrire, de m'organiser et de rendre compte de mon avancement dans un outil de planification de projet professionnel partagé, en respectant les dépendances et les deadlines collectives.
-            </p>
-
-            <p class="text-body-2 mb-0 text-justify">
-              <strong class="text-grey-lighten-1">Avant / Après stage :</strong> <strong>Avant :</strong> Les SAE de BUT m'avaient déjà exposé à la gestion de planning par Gantt, avec des deadlines et des rendus de groupe. Mais ces planifications restaient dans un cadre scolaire, sans pression réelle d'équipe ni conséquences concrètes sur une production partagée. <strong>Après :</strong> Je suis capable de me positionner dans un planning collaboratif professionnel, de respecter des échéances qui ont un impact direct sur le déploiement d'un SI, et d'en assurer le reporting auprès de l'équipe projet.
-            </p>
+            <v-row class="mt-1">
+              <v-col cols="12" sm="6">
+                <div class="avant-block pa-3">
+                  <p class="avant-apres-label mb-2">Avant le stage</p>
+                  <p class="text-body-2 text-justify mb-0">Les SAE de BUT m'avaient déjà exposé à la gestion de planning par Gantt, avec des deadlines et des rendus de groupe. Mais ces planifications restaient dans un cadre scolaire, sans pression réelle d'équipe ni conséquences concrètes sur une production partagée.</p>
+                </div>
+              </v-col>
+              <v-col cols="12" sm="6">
+                <div class="apres-block pa-3">
+                  <p class="avant-apres-label mb-2">Après le stage</p>
+                  <p class="text-body-2 text-justify mb-0">Je suis capable de me positionner dans un planning collaboratif professionnel, de respecter des échéances qui ont un impact direct sur le déploiement d'un SI, et d'en assurer le reporting auprès de l'équipe projet.</p>
+                </div>
+              </v-col>
+            </v-row>
           </v-card-text>
         </v-card>
 
@@ -193,17 +207,31 @@
               <strong class="text-grey-lighten-1">Contexte d'apprentissage :</strong> La rédaction de documentation a été pratiquée en BUT, notamment dans le cadre des SAE et de rendus de projets académiques où il fallait produire des documents précis et structurés. Cependant, ces documentations avaient un objectif fondamentalement différent : elles s'adressaient à un correcteur, pas à un technicien, et n'avaient pas pour but d'assurer la continuité ou la maintenabilité d'un projet à long terme. Ce changement de perspective — écrire pour un futur mainteneur plutôt que pour un évaluateur — s'est construit entièrement sur le terrain.
             </p>
 
-            <p class="text-body-2 mb-3 text-justify">
-              <strong class="text-grey-lighten-1">Difficulté :</strong> Moyenne. Le défi était de vulgariser sans trahir la rigueur technique : expliquer la logique métier d'un flux sans se perdre dans les détails d'implémentation, tout en restant suffisamment précis pour être directement exploitable par un autre développeur.
-            </p>
+            <div class="d-flex align-center flex-wrap mb-4" style="gap: 20px;">
+              <div class="d-flex align-center" style="gap: 8px;">
+                <span class="text-body-2 text-grey-lighten-1 font-weight-medium">Difficulté</span>
+                <v-chip size="small" color="amber" variant="tonal">Moyenne</v-chip>
+              </div>
+              <div class="d-flex align-center" style="gap: 8px;">
+                <span class="text-body-2 text-grey-lighten-1 font-weight-medium">Évaluation</span>
+                <v-chip size="small" color="cyan" variant="tonal">Intermédiaire confirmé</v-chip>
+              </div>
+            </div>
 
-            <p class="text-body-2 mb-3 text-justify">
-              <strong class="text-grey-lighten-1">Évaluation :</strong> Intermédiaire confirmé. Le document produit est directement exploitable par l'équipe de la DSIN et répond à un standard professionnel de qualité, depuis la contextualisation métier jusqu'au détail des composants techniques Talaxie.
-            </p>
-
-            <p class="text-body-2 mb-0 text-justify">
-              <strong class="text-grey-lighten-1">Avant / Après stage :</strong> <strong>Avant :</strong> J'avais déjà rédigé des documentations précises pour mes SAE et projets de BUT, avec un niveau d'exigence réel. Mais leur finalité était différente : elles s'adressaient à un correcteur et n'avaient pas vocation à garantir la continuité d'un projet par d'autres développeurs. <strong>Après :</strong> Je suis capable de produire une documentation structurée (en LaTeX), orientée maintenabilité et transmission, qui s'inscrit dans le cycle de vie complet d'un projet professionnel.
-            </p>
+            <v-row class="mt-1">
+              <v-col cols="12" sm="6">
+                <div class="avant-block pa-3">
+                  <p class="avant-apres-label mb-2">Avant le stage</p>
+                  <p class="text-body-2 text-justify mb-0">J'avais déjà rédigé des documentations précises pour mes SAE et projets de BUT, avec un niveau d'exigence réel. Mais leur finalité était différente : elles s'adressaient à un correcteur et n'avaient pas vocation à garantir la continuité d'un projet par d'autres développeurs.</p>
+                </div>
+              </v-col>
+              <v-col cols="12" sm="6">
+                <div class="apres-block pa-3">
+                  <p class="avant-apres-label mb-2">Après le stage</p>
+                  <p class="text-body-2 text-justify mb-0">Je suis capable de produire une documentation structurée (en LaTeX), orientée maintenabilité et transmission, qui s'inscrit dans le cycle de vie complet d'un projet professionnel.</p>
+                </div>
+              </v-col>
+            </v-row>
           </v-card-text>
         </v-card>
       </v-window-item>
@@ -221,3 +249,24 @@ import ZoomableImage from '@/components/ZoomableImage.vue'
 
 const tab = ref('trace7')
 </script>
+
+<style scoped>
+.avant-block {
+  border-left: 2px solid #555;
+  background: rgba(255,255,255,0.02);
+  border-radius: 0 4px 4px 0;
+}
+.apres-block {
+  border-left: 2px solid #66bb6a;
+  background: rgba(102,187,106,0.04);
+  border-radius: 0 4px 4px 0;
+}
+.avant-apres-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffcc80;
+  margin: 0;
+}
+</style>

@@ -149,17 +149,31 @@
               <strong class="text-grey-lighten-1">Contexte d'apprentissage :</strong> Les dynamiques réelles de communication d'entreprise (rituels de suivi, e-mails internes structurés, points métiers) ne sont pas simulées en BUT. La posture attendue — être proactif, remonter ses blocages, partager ses trouvailles — s'est construite uniquement sur le terrain, par l'exposition directe aux interactions professionnelles du service.
             </p>
 
-            <p class="text-body-2 mb-3 text-justify">
-              <strong class="text-grey-lighten-1">Difficulté :</strong> Moyenne. La difficulté principale n'était pas technique, mais humaine : dépasser la réserve naturelle d'un étudiant face à des professionnels expérimentés et oser porter ses idées devant une hiérarchie sans avoir la légitimité d'un poste permanent.
-            </p>
+            <div class="d-flex align-center flex-wrap mb-4" style="gap: 20px;">
+              <div class="d-flex align-center" style="gap: 8px;">
+                <span class="text-body-2 text-grey-lighten-1 font-weight-medium">Difficulté</span>
+                <v-chip size="small" color="amber" variant="tonal">Moyenne</v-chip>
+              </div>
+              <div class="d-flex align-center" style="gap: 8px;">
+                <span class="text-body-2 text-grey-lighten-1 font-weight-medium">Évaluation</span>
+                <v-chip size="small" color="blue" variant="tonal">Intermédiaire</v-chip>
+              </div>
+            </div>
 
-            <p class="text-body-2 mb-3 text-justify">
-              <strong class="text-grey-lighten-1">Évaluation :</strong> Intermédiaire. J'ose désormais prendre la parole en réunion, remonter des blocages et partager des solutions de manière structurée et argumentée, que ce soit à l'oral lors des points d'équipe ou à l'écrit via des e-mails techniques illustrés.
-            </p>
-
-            <p class="text-body-2 mb-0 text-justify">
-              <strong class="text-grey-lighten-1">Avant / Après stage :</strong> <strong>Avant :</strong> Mes interactions de groupe en BUT se limitaient à des projets de classe encadrés, sans dynamique réelle d'entreprise ni obligation de rendre compte à une hiérarchie. <strong>Après :</strong> Je sais m'insérer dans les rituels professionnels d'un service, adapter mon discours selon mes interlocuteurs et contribuer activement à la dynamique collective du pôle.
-            </p>
+            <v-row class="mt-1">
+              <v-col cols="12" sm="6">
+                <div class="avant-block pa-3">
+                  <p class="avant-apres-label mb-2">Avant le stage</p>
+                  <p class="text-body-2 text-justify mb-0">Mes interactions de groupe en BUT se limitaient à des projets de classe encadrés, sans dynamique réelle d'entreprise ni obligation de rendre compte à une hiérarchie.</p>
+                </div>
+              </v-col>
+              <v-col cols="12" sm="6">
+                <div class="apres-block pa-3">
+                  <p class="avant-apres-label mb-2">Après le stage</p>
+                  <p class="text-body-2 text-justify mb-0">Je sais m'insérer dans les rituels professionnels d'un service, adapter mon discours selon mes interlocuteurs et contribuer activement à la dynamique collective du pôle.</p>
+                </div>
+              </v-col>
+            </v-row>
           </v-card-text>
         </v-card>
 
@@ -185,17 +199,31 @@
               <strong class="text-grey-lighten-1">Contexte d'apprentissage :</strong> L'échelle d'un SI d'entreprise (SaaS, API, DRE, applications satellites) dépasse largement ce qui est simulé en IUT. L'assimilation de l'architecture et l'exploration de documentations techniques massives ont été réalisées intégralement en autodidacte, sans accompagnement pédagogique structuré.
             </p>
 
-            <p class="text-body-2 mb-3 text-justify">
-              <strong class="text-grey-lighten-1">Difficulté :</strong> Élevée. Appréhender un système aussi vaste en quelques semaines, sans connaissances préalables du domaine, représentait un défi intellectuel considérable. L'absence de "mode d'emploi" simplifié forçait à une lecture critique et autonome de sources très denses.
-            </p>
+            <div class="d-flex align-center flex-wrap mb-4" style="gap: 20px;">
+              <div class="d-flex align-center" style="gap: 8px;">
+                <span class="text-body-2 text-grey-lighten-1 font-weight-medium">Difficulté</span>
+                <v-chip size="small" color="deep-orange" variant="tonal">Élevée</v-chip>
+              </div>
+              <div class="d-flex align-center" style="gap: 8px;">
+                <span class="text-body-2 text-grey-lighten-1 font-weight-medium">Évaluation</span>
+                <v-chip size="small" color="blue" variant="tonal">Intermédiaire</v-chip>
+              </div>
+            </div>
 
-            <p class="text-body-2 mb-3 text-justify">
-              <strong class="text-grey-lighten-1">Évaluation :</strong> Intermédiaire. Je suis capable de lire un schéma d'urbanisation complexe, d'en extraire les flux pertinents pour mon périmètre d'action, et d'absorber une documentation technique dense pour en tirer les informations directement opérationnelles.
-            </p>
-
-            <p class="text-body-2 mb-0 text-justify">
-              <strong class="text-grey-lighten-1">Avant / Après stage :</strong> <strong>Avant :</strong> La notion de SI à grande échelle m'était étrangère. En IUT, les architectures restaient simples, locales et directement lisibles sans effort d'analyse particulier. <strong>Après :</strong> Je suis en mesure d'appréhender un SI d'entreprise complexe, de comprendre les enjeux d'une migration SaaS et d'identifier mon point d'intervention dans une chaîne applicative globale.
-            </p>
+            <v-row class="mt-1">
+              <v-col cols="12" sm="6">
+                <div class="avant-block pa-3">
+                  <p class="avant-apres-label mb-2">Avant le stage</p>
+                  <p class="text-body-2 text-justify mb-0">La notion de SI à grande échelle m'était étrangère. En IUT, les architectures restaient simples, locales et directement lisibles sans effort d'analyse particulier.</p>
+                </div>
+              </v-col>
+              <v-col cols="12" sm="6">
+                <div class="apres-block pa-3">
+                  <p class="avant-apres-label mb-2">Après le stage</p>
+                  <p class="text-body-2 text-justify mb-0">Je suis en mesure d'appréhender un SI d'entreprise complexe, de comprendre les enjeux d'une migration SaaS et d'identifier mon point d'intervention dans une chaîne applicative globale.</p>
+                </div>
+              </v-col>
+            </v-row>
           </v-card-text>
         </v-card>
       </v-window-item>
@@ -213,3 +241,24 @@ import ZoomableImage from '@/components/ZoomableImage.vue'
 
 const tab = ref('trace11')
 </script>
+
+<style scoped>
+.avant-block {
+  border-left: 2px solid #555;
+  background: rgba(255,255,255,0.02);
+  border-radius: 0 4px 4px 0;
+}
+.apres-block {
+  border-left: 2px solid #66bb6a;
+  background: rgba(102,187,106,0.04);
+  border-radius: 0 4px 4px 0;
+}
+.avant-apres-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffcc80;
+  margin: 0;
+}
+</style>

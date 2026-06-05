@@ -212,17 +212,31 @@
               <strong class="text-grey-lighten-1">Contexte d'apprentissage :</strong> Si le fonctionnement d'une API a été abordé en BUT, l'utilisation de jetons sécurisés en production a été acquise en autonomie. L'usage de la solution ETL (Talaxie) et le traitement de données en RAM ont été maîtrisés sur le terrain.
             </p>
 
-            <p class="text-body-2 mb-3 text-justify">
-              <strong class="text-grey-lighten-1">Difficulté :</strong> Élevée. L'exigence de production demandait de comprendre la logique de flux Talaxie, d'extraire la donnée utile au sein d'architectures JSON denses, et de concevoir du code Java défensif.
-            </p>
+            <div class="d-flex align-center flex-wrap mb-4" style="gap: 20px;">
+              <div class="d-flex align-center" style="gap: 8px;">
+                <span class="text-body-2 text-grey-lighten-1 font-weight-medium">Difficulté</span>
+                <v-chip size="small" color="deep-orange" variant="tonal">Élevée</v-chip>
+              </div>
+              <div class="d-flex align-center" style="gap: 8px;">
+                <span class="text-body-2 text-grey-lighten-1 font-weight-medium">Évaluation</span>
+                <v-chip size="small" color="green" variant="tonal">Bon / Maîtrisé</v-chip>
+              </div>
+            </div>
 
-            <p class="text-body-2 mb-3 text-justify">
-              <strong class="text-grey-lighten-1">Évaluation :</strong> Bon / Maîtrisé. La conception d'un pipeline manipulant plus de 650 000 lignes garantit des compétences opérationnelles et transposables.
-            </p>
-
-            <p class="text-body-2 mb-0 text-justify">
-              <strong class="text-grey-lighten-1">Avant / Après stage :</strong> <strong>Avant :</strong> Compétences cantonnées au SQL de base et requêtes simples d'API locales sans sécurité. <strong>Après :</strong> Autonomie complète sur l'architecture et le maintien de flux d'intégration de bout en bout.
-            </p>
+            <v-row class="mt-1">
+              <v-col cols="12" sm="6">
+                <div class="avant-block pa-3">
+                  <p class="avant-apres-label mb-2">Avant le stage</p>
+                  <p class="text-body-2 text-justify mb-0">Compétences cantonnées au SQL de base et requêtes simples d'API locales sans sécurité.</p>
+                </div>
+              </v-col>
+              <v-col cols="12" sm="6">
+                <div class="apres-block pa-3">
+                  <p class="avant-apres-label mb-2">Après le stage</p>
+                  <p class="text-body-2 text-justify mb-0">Autonomie complète sur l'architecture et le maintien de flux d'intégration de bout en bout.</p>
+                </div>
+              </v-col>
+            </v-row>
           </v-card-text>
         </v-card>
         <v-card class="bg-grey-darken-4 mb-6">
@@ -247,17 +261,31 @@
               <strong class="text-grey-lighten-1">Contexte d'apprentissage :</strong> L'utilisation d'outils analytiques d'entreprise et les concepts de Business Intelligence m'étaient totalement inconnus. L'apprentissage s'est fait sur le terrain, en appréhendant l'interface visuelle de BO et la syntaxe spécifique au script Qlik.
             </p>
 
-            <p class="text-body-2 mb-3 text-justify">
-              <strong class="text-grey-lighten-1">Difficulté :</strong> Moyenne. Le principal défi a été de s'adapter à des éditeurs logiciels très lourds et d'assimiler la structure fine d'un univers de données pour garantir l'absence d'erreurs de calcul dans le reporting final.
-            </p>
+            <div class="d-flex align-center flex-wrap mb-4" style="gap: 20px;">
+              <div class="d-flex align-center" style="gap: 8px;">
+                <span class="text-body-2 text-grey-lighten-1 font-weight-medium">Difficulté</span>
+                <v-chip size="small" color="amber" variant="tonal">Moyenne</v-chip>
+              </div>
+              <div class="d-flex align-center" style="gap: 8px;">
+                <span class="text-body-2 text-grey-lighten-1 font-weight-medium">Évaluation</span>
+                <v-chip size="small" color="blue" variant="tonal">Intermédiaire</v-chip>
+              </div>
+            </div>
 
-            <p class="text-body-2 mb-3 text-justify">
-              <strong class="text-grey-lighten-1">Évaluation :</strong> Intermédiaire. Mon approche de la donnée s'est professionnalisée, passant de la simple requête textuelle à la modélisation et restitution visuelle structurée.
-            </p>
-
-            <p class="text-body-2 mb-0 text-justify">
-              <strong class="text-grey-lighten-1">Avant / Après stage :</strong> <strong>Avant :</strong> En école, nous manipulions du SQL standard sans aucun outil lourd de modélisation visuelle. J'ignorais totalement ce qu'était la BI et ces outils. <strong>Après :</strong> Grâce à ces missions décisionnelles, mon sens de la requête a progressé vers un profil intermédiaire. Je sais manipuler un script interne à une solution d'entreprise (QlikSense), construire visuellement une interrogation sur BO, tout en assurant la fiabilité des résultats finaux.
-            </p>
+            <v-row class="mt-1">
+              <v-col cols="12" sm="6">
+                <div class="avant-block pa-3">
+                  <p class="avant-apres-label mb-2">Avant le stage</p>
+                  <p class="text-body-2 text-justify mb-0">En école, nous manipulions du SQL standard sans aucun outil lourd de modélisation visuelle. J'ignorais totalement ce qu'était la BI et ces outils.</p>
+                </div>
+              </v-col>
+              <v-col cols="12" sm="6">
+                <div class="apres-block pa-3">
+                  <p class="avant-apres-label mb-2">Après le stage</p>
+                  <p class="text-body-2 text-justify mb-0">Mon sens de la requête a progressé vers un profil intermédiaire. Je sais manipuler un script interne à une solution d'entreprise (QlikSense), construire visuellement une interrogation sur BO, tout en assurant la fiabilité des résultats finaux.</p>
+                </div>
+              </v-col>
+            </v-row>
           </v-card-text>
         </v-card>
 
@@ -282,17 +310,31 @@
               <strong class="text-grey-lighten-1">Contexte d'apprentissage :</strong> Si les concepts de virtualisation ont été abordés en cours, la confrontation avec des règles réseau strictes (proxy d'entreprise) et l'administration de serveurs réels s'est faite sur le terrain.
             </p>
 
-            <p class="text-body-2 mb-3 text-justify">
-              <strong class="text-grey-lighten-1">Difficulté :</strong> Élevée. La complexité de l'infrastructure réseau de l'université demandait de diagnostiquer finement chaque couche (système, réseau, serveurs) pour débloquer les flux d'information.
-            </p>
+            <div class="d-flex align-center flex-wrap mb-4" style="gap: 20px;">
+              <div class="d-flex align-center" style="gap: 8px;">
+                <span class="text-body-2 text-grey-lighten-1 font-weight-medium">Difficulté</span>
+                <v-chip size="small" color="deep-orange" variant="tonal">Élevée</v-chip>
+              </div>
+              <div class="d-flex align-center" style="gap: 8px;">
+                <span class="text-body-2 text-grey-lighten-1 font-weight-medium">Évaluation</span>
+                <v-chip size="small" color="cyan" variant="tonal">Intermédiaire confirmé</v-chip>
+              </div>
+            </div>
 
-            <p class="text-body-2 mb-3 text-justify">
-              <strong class="text-grey-lighten-1">Évaluation :</strong> Intermédiaire confirmé. Je comprends l'impact du système (Proxy, VM) sur les applications métier et je suis capable d'intervenir pour les configurer.
-            </p>
-
-            <p class="text-body-2 mb-0 text-justify">
-              <strong class="text-grey-lighten-1">Avant / Après stage :</strong> <strong>Avant :</strong> La configuration d'environnements serveurs en production m'était inconnue. Les notions de réseau et de déploiement restaient théoriques, déconnectées des contraintes réelles d'une infrastructure d'entreprise. <strong>Après :</strong> Je suis capable d'intervenir dans un environnement de production pour configurer des services (paramétrage .env, connexions ODBC), comprendre l'architecture sous-jacente (Docker, serveurs Linux) et établir des liens fonctionnels entre des composants techniques hétérogènes.
-            </p>
+            <v-row class="mt-1">
+              <v-col cols="12" sm="6">
+                <div class="avant-block pa-3">
+                  <p class="avant-apres-label mb-2">Avant le stage</p>
+                  <p class="text-body-2 text-justify mb-0">La configuration d'environnements serveurs en production m'était inconnue. Les notions de réseau et de déploiement restaient théoriques, déconnectées des contraintes réelles d'une infrastructure d'entreprise.</p>
+                </div>
+              </v-col>
+              <v-col cols="12" sm="6">
+                <div class="apres-block pa-3">
+                  <p class="avant-apres-label mb-2">Après le stage</p>
+                  <p class="text-body-2 text-justify mb-0">Je suis capable d'intervenir dans un environnement de production pour configurer des services (paramétrage .env, connexions ODBC), comprendre l'architecture sous-jacente (Docker, serveurs Linux) et établir des liens fonctionnels entre des composants techniques hétérogènes.</p>
+                </div>
+              </v-col>
+            </v-row>
           </v-card-text>
         </v-card>
       </v-window-item>
@@ -313,3 +355,24 @@ import ZoomableImage from '@/components/ZoomableImage.vue'
 
 const tab = ref('trace1')
 </script>
+
+<style scoped>
+.avant-block {
+  border-left: 2px solid #555;
+  background: rgba(255,255,255,0.02);
+  border-radius: 0 4px 4px 0;
+}
+.apres-block {
+  border-left: 2px solid #66bb6a;
+  background: rgba(102,187,106,0.04);
+  border-radius: 0 4px 4px 0;
+}
+.avant-apres-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffcc80;
+  margin: 0;
+}
+</style>
