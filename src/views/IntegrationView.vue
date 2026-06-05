@@ -135,10 +135,10 @@
 
           <v-card-text class="pt-2">
             <ul class="text-body-2 mb-4 ml-6">
-              <li class="mb-1"><span class="text-blue-lighten-2 font-weight-medium">Savoir participer activement aux rituels de suivi d'une équipe informatique</span> : assiduité aux points hebdomadaires pour comprendre les enjeux globaux du service au-delà de ses propres tâches.</li>
-              <li class="mb-1"><span class="text-green-lighten-2 font-weight-medium">Savoir communiquer sur l'avancement de ses tâches lors de points de synchronisation</span> : prise de parole régulière pour remonter les blocages et ajuster les priorités en concertation avec le tuteur.</li>
-              <li class="mb-1"><span class="text-purple-lighten-2 font-weight-medium">Savoir collaborer avec différents acteurs techniques et métiers lors de réunions dédiées</span> : adaptation du discours selon l'interlocuteur (technicien ou administratif) pour rester pertinent dans tous les contextes.</li>
-              <li class="mb-1"><span class="text-orange-lighten-2 font-weight-medium">Savoir être force de proposition pour lever un blocage technique et le transmettre</span> : recherche autonome d'une solution et partage structuré (e-mail illustré par une capture Swagger) à l'ensemble de l'équipe.</li>
+              <li class="mb-1"><span class="text-blue-lighten-2 font-weight-medium">Savoir participer activement aux rituels de suivi d'une équipe informatique</span> : assiduité aux points hebdomadaires pour comprendre les enjeux globaux du service au-delà de ses propres tâches (Trace 11).</li>
+              <li class="mb-1"><span class="text-green-lighten-2 font-weight-medium">Savoir communiquer sur l'avancement de ses tâches lors de points de synchronisation</span> : prise de parole régulière pour remonter les blocages et ajuster les priorités en concertation avec le tuteur (Trace 11).</li>
+              <li class="mb-1"><span class="text-purple-lighten-2 font-weight-medium">Savoir collaborer avec différents acteurs techniques et métiers lors de réunions dédiées</span> : adaptation du discours selon l'interlocuteur (technicien ou administratif) pour rester pertinent dans tous les contextes (Trace 11).</li>
+              <li class="mb-1"><span class="text-orange-lighten-2 font-weight-medium">Savoir être force de proposition pour lever un blocage technique et le transmettre</span> : recherche autonome d'une solution et partage structuré (e-mail illustré par une capture Swagger) à l'ensemble de l'équipe (Trace 12).</li>
             </ul>
 
             <p class="text-body-2 mb-3 text-justify">
@@ -171,10 +171,10 @@
 
           <v-card-text class="pt-2">
             <ul class="text-body-2 mb-4 ml-6">
-              <li class="mb-1"><span class="text-blue-lighten-2 font-weight-medium">Savoir s'approprier l'architecture globale d'un système d'information complexe</span> : lecture et compréhension de schémas d'urbanisation pour situer son périmètre d'action dans la chaîne applicative.</li>
-              <li class="mb-1"><span class="text-green-lighten-2 font-weight-medium">Savoir identifier les flux de données et les dépendances entre applications métiers</span> : repérage des flux à implémenter pour valider techniquement le cahier des charges avant tout développement.</li>
-              <li class="mb-1"><span class="text-teal-lighten-2 font-weight-medium">S'approprier un nouveau contexte fonctionnel complexe</span> : montée en compétence rapide sur un domaine métier inconnu (scolarité universitaire, migration Apogée → Pégase) sans formation préalable.</li>
-              <li class="mb-1"><span class="text-indigo-lighten-2 font-weight-medium">Analyser un livrable documentaire externe</span> : extraction des informations opérationnelles utiles dans une documentation SaaS dense de plus de 300 pages pour cibler les bons endpoints API.</li>
+              <li class="mb-1"><span class="text-blue-lighten-2 font-weight-medium">Savoir s'approprier l'architecture globale d'un système d'information complexe</span> : lecture et compréhension de schémas d'urbanisation pour situer son périmètre d'action dans la chaîne applicative (Trace 13).</li>
+              <li class="mb-1"><span class="text-green-lighten-2 font-weight-medium">Savoir identifier les flux de données et les dépendances entre applications métiers</span> : repérage des flux à implémenter pour valider techniquement le cahier des charges avant tout développement (Trace 13).</li>
+              <li class="mb-1"><span class="text-teal-lighten-2 font-weight-medium">S'approprier un nouveau contexte fonctionnel complexe</span> : montée en compétence rapide sur un domaine métier inconnu (scolarité universitaire, migration Apogée → Pégase) sans formation préalable (Trace 14).</li>
+              <li class="mb-1"><span class="text-indigo-lighten-2 font-weight-medium">Analyser un livrable documentaire externe</span> : extraction des informations opérationnelles utiles dans une documentation SaaS dense de plus de 300 pages pour cibler les bons endpoints API (Trace 14).</li>
             </ul>
 
             <p class="text-body-2 mb-3 text-justify">

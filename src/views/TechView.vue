@@ -200,8 +200,8 @@
             <ul class="text-body-2 mb-4 ml-6">
               <li class="mb-1"><span class="text-teal-lighten-2 font-weight-medium">Savoir analyser et exploiter la documentation technique d'une API</span> : cartographie des endpoints Pégase et vérification de la disponibilité des données (Trace 2).</li>
               <li class="mb-1"><span class="text-blue-lighten-2 font-weight-medium">Savoir consommer et paginer des API REST sécurisées</span> : extraction massive de données avec gestion de jetons d'accès (Trace 1).</li>
-              <li class="mb-1"><span class="text-purple-lighten-2 font-weight-medium">Savoir nettoyer et transformer des flux de données JSON</span> : croisement en mémoire vive dans Talaxie avec des référentiels universitaires.</li>
-              <li class="mb-1"><span class="text-orange-lighten-2 font-weight-medium">Savoir sécuriser les flux contre les pannes et les exceptions Java</span> : gestion des timeouts et des NullPointerException.</li>
+              <li class="mb-1"><span class="text-purple-lighten-2 font-weight-medium">Savoir nettoyer et transformer des flux de données JSON</span> : croisement en mémoire vive dans Talaxie avec des référentiels universitaires (Trace 1).</li>
+              <li class="mb-1"><span class="text-orange-lighten-2 font-weight-medium">Savoir sécuriser les flux contre les pannes et les exceptions Java</span> : gestion des timeouts et des NullPointerException (Trace 1).</li>
             </ul>
 
             <p class="text-body-2 mb-3 text-justify">
