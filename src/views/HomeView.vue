@@ -113,9 +113,9 @@
                   <v-chip size="x-small" variant="tonal" color="red-lighten-1">6 traces</v-chip>
                 </div>
                 <ul class="sf-list">
-                  <li>Savoir concevoir, implémenter et administrer des flux d'intégration de données (API et ETL)</li>
-                  <li>Savoir préparer, modéliser et extraire des données décisionnelles (Business Intelligence)</li>
-                  <li>Savoir configurer et déployer un environnement technique</li>
+                  <li><router-link to="/tech/trace1?tab=bilan" class="sf-link text-red-lighten-1">Savoir concevoir, implémenter et administrer des flux d'intégration de données (API et ETL)</router-link></li>
+                  <li><router-link to="/tech/trace1?tab=bilan" class="sf-link text-red-lighten-1">Savoir préparer, modéliser et extraire des données décisionnelles (Business Intelligence)</router-link></li>
+                  <li><router-link to="/tech/trace1?tab=bilan" class="sf-link text-red-lighten-1">Savoir configurer et déployer un environnement technique</router-link></li>
                 </ul>
               </v-card-text>
               <v-card-actions class="pt-0">
@@ -131,8 +131,8 @@
                   <v-chip size="x-small" variant="tonal" color="blue-lighten-1">4 traces</v-chip>
                 </div>
                 <ul class="sf-list">
-                  <li>Savoir planifier, suivre et piloter un projet informatique</li>
-                  <li>Savoir documenter et garantir la maintenabilité d'un projet informatique</li>
+                  <li><router-link to="/proj/trace3?tab=bilan" class="sf-link text-blue-lighten-1">Savoir planifier, suivre et piloter un projet informatique</router-link></li>
+                  <li><router-link to="/proj/trace3?tab=bilan" class="sf-link text-blue-lighten-1">Savoir documenter et garantir la maintenabilité d'un projet informatique</router-link></li>
                 </ul>
               </v-card-text>
               <v-card-actions class="pt-0">
@@ -148,8 +148,8 @@
                   <v-chip size="x-small" variant="tonal" color="green-lighten-1">4 traces</v-chip>
                 </div>
                 <ul class="sf-list">
-                  <li>Savoir s'intégrer dans une équipe et communiquer en milieu professionnel</li>
-                  <li>Savoir appréhender et analyser un Système d'Information complexe</li>
+                  <li><router-link to="/integration/trace5?tab=bilan" class="sf-link text-green-lighten-1">Savoir s'intégrer dans une équipe et communiquer en milieu professionnel</router-link></li>
+                  <li><router-link to="/integration/trace5?tab=bilan" class="sf-link text-green-lighten-1">Savoir appréhender et analyser un Système d'Information complexe</router-link></li>
                 </ul>
               </v-card-text>
               <v-card-actions class="pt-0">
@@ -230,6 +230,17 @@ import ZoomableImage from '@/components/ZoomableImage.vue'
   font-size: 0.875rem;
   color: #d5d9e2;
   line-height: 1.55;
+}
+
+.sf-link {
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 1px dashed currentColor;
+  transition: opacity 0.15s;
+}
+
+.sf-link:hover {
+  opacity: 0.75;
 }
 
 .sf-list li::before {

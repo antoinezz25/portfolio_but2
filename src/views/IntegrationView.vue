@@ -233,13 +233,15 @@
 
 <script setup>
 import { ref } from 'vue'
+import { useRoute } from 'vue-router'
 import traceMail from '@/assets/trace/trace_mail.png'
 import traceSI from '@/assets/trace/trace_SI.png'
 import traceCalendrier from '@/assets/trace/trace_ordre_du_jour.png'
 import traceDocPegase from '@/assets/trace/trace_doc_pegase.png'
 import ZoomableImage from '@/components/ZoomableImage.vue'
 
-const tab = ref('trace11')
+const route = useRoute()
+const tab = ref(route.query.tab === 'bilan' ? 'bilan' : 'trace11')
 </script>
 
 <style scoped>

@@ -201,6 +201,7 @@
             <ul class="text-body-2 mb-4 ml-6">
               <li class="mb-1"><span class="text-teal-lighten-2 font-weight-medium">Savoir analyser et exploiter la documentation technique d'une API</span> : cartographie des endpoints Pégase et vérification de la disponibilité des données (Trace 2).</li>
               <li class="mb-1"><span class="text-blue-lighten-2 font-weight-medium">Savoir consommer et paginer des API REST sécurisées</span> : extraction massive de données avec gestion de jetons d'accès (Trace 1).</li>
+              <li class="mb-1"><span class="text-green-lighten-2 font-weight-medium">Savoir optimiser les performances de jointure par la mise en cache</span> : chargement unique des référentiels en mémoire vive pour un croisement quasi-instantané avec les dossiers étudiants (Trace 1).</li>
               <li class="mb-1"><span class="text-purple-lighten-2 font-weight-medium">Savoir nettoyer et transformer des flux de données JSON</span> : croisement en mémoire vive dans Talaxie avec des référentiels universitaires (Trace 1).</li>
               <li class="mb-1"><span class="text-orange-lighten-2 font-weight-medium">Savoir sécuriser les flux contre les pannes et les exceptions Java</span> : gestion des timeouts et des NullPointerException (Trace 1).</li>
             </ul>
@@ -250,7 +251,9 @@
             <ul class="text-body-2 mb-4 ml-6">
               <li class="mb-1"><span class="text-blue-lighten-2 font-weight-medium">Scripter l'extraction de données depuis une source distante</span> : connexion aux bases PostgreSQL/DRE via les connecteurs QlikSense (Trace 3).</li>
               <li class="mb-1"><span class="text-green-lighten-2 font-weight-medium">Transformer et nettoyer des données via le langage de script Qlik</span> : harmonisation des données Apogée et Pégase vers un référentiel commun (Trace 3).</li>
+              <li class="mb-1"><span class="text-purple-lighten-2 font-weight-medium">Préparer les tables pour optimiser le modèle associatif</span> : structuration du script en sections thématiques pour un modèle de données cohérent et performant (Trace 3).</li>
               <li class="mb-1"><span class="text-orange-lighten-2 font-weight-medium">Concevoir des requêtes complexes sur un univers de données</span> : croisement et filtrage ciblé sous SAP Business Objects (Trace 4).</li>
+              <li class="mb-1"><span class="text-pink-lighten-2 font-weight-medium">Appliquer des filtres et des conditions de restriction</span> : ciblage précis d'une population étudiante par croisement de conditions logiques (Trace 4).</li>
               <li class="mb-1"><span class="text-teal-lighten-2 font-weight-medium">Valider et contrôler la cohérence d'un jeu de données extrait</span> : vérification de la fiabilité des indicateurs avant tout export (Trace 4).</li>
             </ul>
 
@@ -299,6 +302,8 @@
           <v-card-text class="pt-2">
             <ul class="text-body-2 mb-4 ml-6">
               <li class="mb-1"><span class="text-blue-lighten-2 font-weight-medium">Configurer les variables d'environnement d'un service en production</span> : paramétrage sécurisé du fichier .env de DREmgr déployé sous Docker par l'équipe système (Trace 5).</li>
+              <li class="mb-1"><span class="text-green-lighten-2 font-weight-medium">Paramétrer les flux de synchronisation de données distantes</span> : configuration du profil de production et de l'adresse cible pour le rapatriement automatisé des sauvegardes DRE (Trace 5).</li>
+              <li class="mb-1"><span class="text-purple-lighten-2 font-weight-medium">Analyser des logs système pour monitorer l'état des automatisations</span> : supervision des fichiers cron.log et import.log pour diagnostiquer et résoudre les anomalies d'importation (Trace 5).</li>
               <li class="mb-1"><span class="text-pink-lighten-2 font-weight-medium">Développer des scripts SQL complémentaires pour étendre les fonctionnalités d'un outil</span> : conception et mise en place d'un addon SQL sur DREmgr générant une table de données nécessaires à la fiabilisation de la RDD, absente nativement de la partie pilotage de la DRE (Trace 5).</li>
               <li class="mb-1"><span class="text-orange-lighten-2 font-weight-medium">Paramétrer une connexion relationnelle vers une base de données distante</span> : configuration ODBC vers la base PostgreSQL DRE depuis SAP IDT (Trace 6).</li>
               <li class="mb-1"><span class="text-teal-lighten-2 font-weight-medium">Administrer un projet local et ses ressources dans un outil de conception d'information</span> : organisation des couches connexion, fondation et présentation dans SAP IDT (Trace 6).</li>
@@ -346,6 +351,7 @@
 
 <script setup>
 import { ref } from 'vue'
+import { useRoute } from 'vue-router'
 
 import traceSwagger from '@/assets/trace/trace_swagger.png'
 import traceCalcium from '@/assets/trace/trace_calcium.png'
@@ -355,7 +361,8 @@ import traceDremgr from '@/assets/trace/trace_DREmgr.png'
 import traceConnectionDRE from '@/assets/trace/trace_connection_DRE.JPG'
 import ZoomableImage from '@/components/ZoomableImage.vue'
 
-const tab = ref('trace1')
+const route = useRoute()
+const tab = ref(route.query.tab === 'bilan' ? 'bilan' : 'trace1')
 </script>
 
 <style scoped>

@@ -241,13 +241,15 @@
 
 <script setup>
 import { ref } from 'vue'
+import { useRoute } from 'vue-router'
 import traceGantt from '@/assets/trace/trace_gantt.png'
 import traceDocumentation from '@/assets/trace/trace_documentation.png'
 import traceReunion from '@/assets/trace/trace_reunion_compte_rendu.png'
 import traceDocDre from '@/assets/trace/trace_doc_dre.png'
 import ZoomableImage from '@/components/ZoomableImage.vue'
 
-const tab = ref('trace7')
+const route = useRoute()
+const tab = ref(route.query.tab === 'bilan' ? 'bilan' : 'trace7')
 </script>
 
 <style scoped>
