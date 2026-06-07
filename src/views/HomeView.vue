@@ -76,21 +76,20 @@
         <div class="mb-4">
           <p class="field-label mb-2">Existant &amp; problématiques</p>
           <p class="text-body-2 text-justify">
-            L'université traverse une transition majeure de son Système d'Information, passant de l'ancien logiciel de scolarité <strong>Apogée</strong> vers le nouveau système national <strong>Pégase</strong>. Cette cohabitation engendre des défis de synchronisation : les services administratifs et médicaux risquent de travailler avec des données obsolètes ou fragmentées si les bases ne communiquent pas parfaitement.
+            L'université traverse une transition majeure au sein de son Système d'Information, passant de l'ancien logiciel de scolarité <strong>Apogée</strong> vers le nouveau système national <strong>Pégase</strong>. Cette transition et cohabitation engendre des défis de reprise de données (RDD) et de synchronisation : il a été acté de faire un passage en production partielle à la rentrée 2026 et il faut faire cohabiter les systèmes pour assurer la continuité de service.
           </p>
         </div>
         <v-divider class="mb-4" color="#2e2e2e"></v-divider>
         <div class="mb-4">
           <p class="field-label mb-2">Sujet</p>
           <p class="text-body-2 text-justify">
-            La mise en place de la <strong>DRE (Données Répliquées de l'Établissement) v31</strong>. Pégase étant une solution SaaS, la DRE permet de rapatrier et centraliser les données localement. Ma mission a consisté à concevoir des passerelles entre ces systèmes : développement de flux d'intégration (ETL), paramétrage de la réplication de bases de données (DREmgr) et conception de requêtes décisionnelles (QlickSens,BO).
-          </p>
+            Au sein du SI et de l'écosystème applicatif Pégase, ma mission a consisté à recréer et développer de nouveaux <strong>flux d'intégration (ETL)</strong>. Pégase étant une solution hébergée en SaaS, j'ai également pris en charge l'installation et le paramétrage d'une base locale d'établissement (<strong>DRE</strong>) pour rapatrier les données, avant de concevoir des <strong>requêtes décisionnelles</strong> pour les exploiter sous QlikSense et BO.          </p>
         </div>
         <v-divider class="mb-4" color="#2e2e2e"></v-divider>
         <div>
           <p class="field-label mb-2">Enjeux &amp; objectifs</p>
           <p class="text-body-2 text-justify">
-            Assurer la continuité de service pendant la migration. Pour le projet <strong>Calcium</strong> (gestion des rendez-vous médicaux étudiants), l'objectif était d'automatiser quotidiennement un croisement de données massif. Il fallait également garantir aux directions des composantes des tableaux de bord statistiques fiables malgré la complexité de la nouvelle architecture logicielle.
+            Assurer la continuité de service dès la campagne des inscriptions administratives début juillet.Dans le cadre de la reprise de données l'objectif était de venir en soutients de l'équipe de RDD en executant des requètes pour facilité la fiabilisation des données reprisent. Pour le projet <strong>Calcium</strong> (gestion des rendez-vous médicaux étudiants), l'objectif était d'automatiser quotidiennement un croisement de données massif. Il fallait également garantir à la gouvernance et aux directions des composantes des tableaux de bord statistiques fiables malgré la complexité de la nouvelle architecture logicielle.
           </p>
         </div>
       </v-card-text>
