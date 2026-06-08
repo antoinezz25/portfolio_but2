@@ -367,8 +367,8 @@ const tab = ref(route.query.tab === 'bilan' ? 'bilan' : 'trace1')
 
 <style scoped>
 .avant-block {
-  border-left: 2px solid #555;
-  background: rgba(255,255,255,0.02);
+  border-left: 2px solid var(--text-faint);
+  background: var(--surface-tint);
   border-radius: 0 4px 4px 0;
 }
 .apres-block {
@@ -381,7 +381,7 @@ const tab = ref(route.query.tab === 'bilan' ? 'bilan' : 'trace1')
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #ffcc80;
+  color: var(--accent-label);
   margin: 0;
 }
 </style>

@@ -62,7 +62,7 @@
       </v-card-text>
       <v-card-title class="text-h5 font-weight-bold section-title pt-0">Organigramme de la DSIN</v-card-title>
       <v-card-text>
-        <p class="text-body-2 mb-4" style="color: #888;">Positionnement du Pôle Métier dans l'organisation globale de la Direction des Systèmes d'Information.</p>
+        <p class="text-body-2 mb-4" style="color: var(--text-muted);">Positionnement du Pôle Métier dans l'organisation globale de la Direction des Systèmes d'Information.</p>
         <ZoomableImage :src="organigramme" alt="Organigramme DSIN" :preview-height="600" />
       </v-card-text>
     </v-card>
@@ -79,13 +79,13 @@
             L'université traverse une transition majeure au sein de son Système d'Information, passant de l'ancien logiciel de scolarité <strong>Apogée</strong> vers le nouveau système national <strong>Pégase</strong>. Cette transition et cohabitation engendre des défis de reprise de données (RDD) et de synchronisation : il a été acté de faire un passage en production partielle à la rentrée 2026 et il faut faire cohabiter les systèmes pour assurer la continuité de service.
           </p>
         </div>
-        <v-divider class="mb-4" color="#2e2e2e"></v-divider>
+        <v-divider class="mb-4 themed-divider"></v-divider>
         <div class="mb-4">
           <p class="field-label mb-2">Sujet</p>
           <p class="text-body-2 text-justify">
             Au sein du SI et de l'écosystème applicatif Pégase, ma mission a consisté à recréer et développer de nouveaux <strong>flux d'intégration (ETL)</strong>. Pégase étant une solution hébergée en SaaS, j'ai également pris en charge l'installation et le paramétrage d'une base locale d'établissement (<strong>DRE</strong>) pour rapatrier les données, avant de concevoir des <strong>requêtes décisionnelles</strong> pour les exploiter sous QlikSense et BO.          </p>
         </div>
-        <v-divider class="mb-4" color="#2e2e2e"></v-divider>
+        <v-divider class="mb-4 themed-divider"></v-divider>
         <div>
           <p class="field-label mb-2">Enjeux &amp; objectifs</p>
           <p class="text-body-2 text-justify">
@@ -177,13 +177,13 @@ import ZoomableImage from '@/components/ZoomableImage.vue'
 }
 
 .section-card {
-  background: #1f1f1f !important;
-  border: 1px solid #353535;
+  background: var(--surface-card) !important;
+  border: 1px solid var(--surface-border);
   border-radius: 12px !important;
 }
 
 .section-label {
-  color: #ffcc80;
+  color: var(--accent-label);
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.2em;
@@ -191,7 +191,7 @@ import ZoomableImage from '@/components/ZoomableImage.vue'
 }
 
 .field-label {
-  color: #ffcc80;
+  color: var(--accent-label);
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.12em;
@@ -200,7 +200,11 @@ import ZoomableImage from '@/components/ZoomableImage.vue'
 }
 
 .section-title {
-  color: #f4f6fb;
+  color: var(--text-heading);
+}
+
+.themed-divider {
+  color: var(--surface-divider);
 }
 
 .hero-photo {
@@ -211,7 +215,7 @@ import ZoomableImage from '@/components/ZoomableImage.vue'
 .photo-wrapper {
   width: 210px;
   height: 210px;
-  border: 4px solid #353535;
+  border: 4px solid var(--surface-border);
   border-radius: 50%;
   overflow: hidden;
   flex-shrink: 0;
@@ -228,7 +232,7 @@ import ZoomableImage from '@/components/ZoomableImage.vue'
   padding-left: 1.1rem;
   margin-bottom: 0.55rem;
   font-size: 0.875rem;
-  color: #d5d9e2;
+  color: var(--text-body);
   line-height: 1.55;
 }
 
@@ -247,12 +251,12 @@ import ZoomableImage from '@/components/ZoomableImage.vue'
   content: '—';
   position: absolute;
   left: 0;
-  color: #555;
+  color: var(--text-faint);
 }
 
 :deep(.v-card-text),
 :deep(.v-card-text p) {
-  color: #d5d9e2;
+  color: var(--text-body);
   line-height: 1.65;
 }
 </style>
